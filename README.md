@@ -15,5 +15,6 @@ JupyterLabはpyenvで起動
 GoggleChromeはroot権限でそのまま起動できないので、--no-sandboxオプションが必要
 
 ## 問題点
-rootで起動するため、開発環境のみでの使用を推奨
+AppleSilicon(M系)では起動しない  
+rootで起動するため、開発環境のみでの使用を推奨  
 コピペが上手くいかない気がする
