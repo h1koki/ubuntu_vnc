@@ -1,0 +1,14 @@
+#!/bin/sh
+
+unset SESSION_MANAGER
+unset DBUS_SESSION_BUS_ADDRESS
+
+xrdb $HOME/.Xresources
+startxfce4 &
+
+vncconfig
+
+# VNC終了後も維持
+while true; do
+  sleep 10
+done
